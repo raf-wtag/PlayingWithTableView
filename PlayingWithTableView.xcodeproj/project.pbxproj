@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FF6F81A52641B024003430AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6F81A42641B024003430AE /* AppDelegate.swift */; };
 		FF6F81A72641B024003430AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6F81A62641B024003430AE /* SceneDelegate.swift */; };
-		FF6F81A92641B024003430AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6F81A82641B024003430AE /* ViewController.swift */; };
+		FF6F81A92641B024003430AE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6F81A82641B024003430AE /* TableViewController.swift */; };
 		FF6F81AC2641B024003430AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6F81AA2641B024003430AE /* Main.storyboard */; };
 		FF6F81AE2641B026003430AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6F81AD2641B026003430AE /* Assets.xcassets */; };
 		FF6F81B12641B026003430AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6F81AF2641B026003430AE /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		FF6F81A12641B024003430AE /* PlayingWithTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingWithTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6F81A42641B024003430AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF6F81A62641B024003430AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF6F81A82641B024003430AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF6F81A82641B024003430AE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FF6F81AB2641B024003430AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF6F81AD2641B026003430AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF6F81B02641B026003430AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				FF6F81A42641B024003430AE /* AppDelegate.swift */,
 				FF6F81A62641B024003430AE /* SceneDelegate.swift */,
-				FF6F81A82641B024003430AE /* ViewController.swift */,
+				FF6F81A82641B024003430AE /* TableViewController.swift */,
 				FF6F81AA2641B024003430AE /* Main.storyboard */,
 				FF6F81AD2641B026003430AE /* Assets.xcassets */,
 				FF6F81AF2641B026003430AE /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF6F81A92641B024003430AE /* ViewController.swift in Sources */,
+				FF6F81A92641B024003430AE /* TableViewController.swift in Sources */,
 				FF6F81A52641B024003430AE /* AppDelegate.swift in Sources */,
 				FF6F81A72641B024003430AE /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGF6Q9433U;
 				INFOPLIST_FILE = PlayingWithTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VGF6Q9433U;
 				INFOPLIST_FILE = PlayingWithTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
